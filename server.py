@@ -18,6 +18,7 @@ class IbuttonHandler(tornado.web.RequestHandler):
 
 def ldap_search(ibutton):
     # Do the ldap search here    
+    pass
 
 if __name__ == "__main__":
     application = tornado.web.Application([
